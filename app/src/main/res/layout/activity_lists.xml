@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lists">
+
+    <Button
+        android:id="@+id/dell"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/dell"
+        android:onClick="dell"
+        app:layout_constraintStart_toEndOf="@+id/gmail"
+        app:layout_constraintTop_toBottomOf="@+id/youtube" />
+
+    <Button
+        android:id="@+id/key"
+        android:layout_width="107dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/key"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/text"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/amazon"
+        android:onClick="amazon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/windows"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/windows"
+        android:onClick="windows"
+        app:layout_constraintStart_toEndOf="@+id/text"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/apple"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/apple"
+        android:onClick="apple"
+        app:layout_constraintStart_toEndOf="@+id/windows"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/twitter"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/twitter"
+        android:onClick="twitter"
+        app:layout_constraintStart_toEndOf="@+id/apple"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/flipkart"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/flipkart"
+        android:onClick="flipkart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+    <Button
+        android:id="@+id/samsung"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/samsung"
+        android:onClick="samsung"
+        app:layout_constraintStart_toEndOf="@+id/flipkart"
+        app:layout_constraintTop_toBottomOf="@+id/windows" />
+
+    <Button
+        android:id="@+id/linux"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/linux"
+        android:onClick="linux"
+        app:layout_constraintStart_toEndOf="@+id/samsung"
+        app:layout_constraintTop_toBottomOf="@+id/apple" />
+
+    <Button
+        android:id="@+id/youtube"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/youtube"
+        android:onClick="youtube"
+        app:layout_constraintStart_toEndOf="@+id/linux"
+        app:layout_constraintTop_toBottomOf="@+id/twitter" />
+
+    <Button
+        android:id="@+id/wb"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/wb"
+        android:onClick="wb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flipkart" />
+
+    <Button
+        android:id="@+id/ikea"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ikea"
+        android:onClick="ikea"
+        app:layout_constraintStart_toEndOf="@+id/wb"
+        app:layout_constraintTop_toBottomOf="@+id/samsung" />
+
+    <Button
+        android:id="@+id/gmail"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gmail"
+        android:onClick="gmail"
+        app:layout_constraintStart_toEndOf="@+id/ikea"
+        app:layout_constraintTop_toBottomOf="@+id/linux" />
+
+    <Button
+        android:id="@+id/blackberry"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/blackberry"
+        android:onClick="blackberry"
+        app:layout_constraintStart_toEndOf="@+id/hyundai"
+        app:layout_constraintTop_toBottomOf="@+id/adidas" />
+
+    <Button
+        android:id="@+id/adidas"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/adidas"
+        android:onClick="adidas"
+        app:layout_constraintStart_toEndOf="@+id/honda"
+        app:layout_constraintTop_toBottomOf="@+id/ikea" />
+
+    <Button
+        android:id="@+id/cocacola"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/cocacola"
+        android:onClick="cocacola"
+        app:layout_constraintStart_toEndOf="@+id/adidas"
+        app:layout_constraintTop_toBottomOf="@+id/gmail" />
+
+    <Button
+        android:id="@+id/predator"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/predator"
+        android:onClick="predator"
+        app:layout_constraintStart_toEndOf="@+id/cocacola"
+        app:layout_constraintTop_toBottomOf="@+id/dell" />
+
+    <Button
+        android:id="@+id/honda"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/honda"
+        android:onClick="honda"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wb" />
+
+    <Button
+        android:id="@+id/hyundai"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/hyundai"
+        android:onClick="hyundai"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/honda" />
+
+    <Button
+        android:id="@+id/fogg"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/fogg"
+        android:onClick="fogg"
+        app:layout_constraintStart_toEndOf="@+id/blackberry"
+        app:layout_constraintTop_toBottomOf="@+id/cocacola" />
+
+    <Button
+        android:id="@+id/ups"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ups"
+        android:onClick="ups"
+        app:layout_constraintStart_toEndOf="@+id/fogg"
+        app:layout_constraintTop_toBottomOf="@+id/predator" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.logoapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/apple"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ups"></activity>
+        <activity android:name=".fogg" />
+        <activity android:name=".blackberry" />
+        <activity android:name=".hyundai" />
+        <activity android:name=".predator" />
+        <activity android:name=".cocacola" />
+        <activity android:name=".adidas" />
+        <activity android:name=".honda" />
+        <activity android:name=".dell" />
+        <activity android:name=".gmail" />
+        <activity android:name=".ikea" />
+        <activity android:name=".wb" />
+        <activity android:name=".youtube" />
+        <activity android:name=".linux" />
+        <activity android:name=".samsung" />
+        <activity android:name=".flipkart" />
+        <activity android:name=".twitter" />
+        <activity android:name=".apple" />
+        <activity android:name=".windows" />
+        <activity android:name=".amazon" />
+        <activity android:name=".lists" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
